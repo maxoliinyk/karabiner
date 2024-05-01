@@ -1449,12 +1449,13 @@
               {
                 "to": [
                   {
-                    "key_code": "play_or_pause"
+                    "shell_command": "open raycast://extensions/Aayush9029/cleanshotx/capture-text"
                   }
                 ],
+                "description": "Open raycast://extensions/Aayush9029/cleanshotx/capture-text",
                 "type": "basic",
                 "from": {
-                  "key_code": "p",
+                  "key_code": "o",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1472,12 +1473,13 @@
               {
                 "to": [
                   {
-                    "key_code": "rewind"
+                    "shell_command": "open raycast://extensions/Aayush9029/cleanshotx/toggle-desktop-icons"
                   }
                 ],
+                "description": "Open raycast://extensions/Aayush9029/cleanshotx/toggle-desktop-icons",
                 "type": "basic",
                 "from": {
-                  "key_code": "open_bracket",
+                  "key_code": "h",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1495,12 +1497,13 @@
               {
                 "to": [
                   {
-                    "key_code": "fastforward"
+                    "shell_command": "open raycast://extensions/Aayush9029/cleanshotx/open-history"
                   }
                 ],
+                "description": "Open raycast://extensions/Aayush9029/cleanshotx/open-history",
                 "type": "basic",
                 "from": {
-                  "key_code": "close_bracket",
+                  "key_code": "r",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1518,58 +1521,13 @@
               {
                 "to": [
                   {
-                    "key_code": "volume_increment"
+                    "shell_command": "open raycast://extensions/Aayush9029/cleanshotx/scrolling-capture"
                   }
                 ],
+                "description": "Open raycast://extensions/Aayush9029/cleanshotx/scrolling-capture",
                 "type": "basic",
                 "from": {
-                  "key_code": "u",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_c",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "key_code": "volume_decrement"
-                  }
-                ],
-                "type": "basic",
-                "from": {
-                  "key_code": "j",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_c",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "key_code": "mute"
-                  }
-                ],
-                "type": "basic",
-                "from": {
-                  "key_code": "m",
+                  "key_code": "s",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1779,6 +1737,30 @@
                 "type": "basic",
                 "from": {
                   "key_code": "b",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_r",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://extensions/gebeto/translate/quick-translate"
+                  }
+                ],
+                "description": "Open raycast://extensions/gebeto/translate/quick-translate",
+                "type": "basic",
+                "from": {
+                  "key_code": "t",
                   "modifiers": {
                     "optional": [
                       "any"

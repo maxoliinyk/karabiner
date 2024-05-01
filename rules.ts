@@ -214,38 +214,14 @@ const rules: KarabinerRules[] = [
       d: open(`raycast://extensions/yakitrak/do-not-disturb/toggle`),
     },
 
-    // c = Musi*c* which isn't "m" because we want it to be on the left hand
+    // c = sCreenshot 😭
     c: {
-      p: {
-        to: [{ key_code: "play_or_pause" }],
-      },
-      open_bracket: {
-        to: [{ key_code: "rewind" }],
-      },
-      close_bracket: {
-        to: [{ key_code: "fastforward" }],
-      },
-      u: {
-        to: [
-          {
-            key_code: "volume_increment",
-          },
-        ],
-      },
-      j: {
-        to: [
-          {
-            key_code: "volume_decrement",
-          },
-        ],
-      },
-      m: {
-        to: [
-          {
-            key_code: "mute",
-          },
-        ],
-      },
+      o: open("raycast://extensions/Aayush9029/cleanshotx/capture-text"),
+      h: open(
+        "raycast://extensions/Aayush9029/cleanshotx/toggle-desktop-icons"
+      ),
+      r: open("raycast://extensions/Aayush9029/cleanshotx/open-history"),
+      s: open("raycast://extensions/Aayush9029/cleanshotx/scrolling-capture"),
     },
 
     // r = "Raycast"
@@ -260,6 +236,7 @@ const rules: KarabinerRules[] = [
       ),
       d: open("raycast://extensions/aelew/cobalt/index"),
       b: open("raycast://extensions/jomifepe/bitwarden/search"),
+      t: open("raycast://extensions/gebeto/translate/quick-translate"),
     },
   }),
 ];
