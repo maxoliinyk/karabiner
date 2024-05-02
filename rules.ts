@@ -50,6 +50,7 @@ const rules: KarabinerRules[] = [
       m: open("https://messenger.com"),
       r: open("https://reddit.com"),
       l: open("https://www.last.fm/user/ooomaxx"),
+      g: open("https://github.com/maxoliinyk"),
     },
     // o = "Open" applications
     o: {
