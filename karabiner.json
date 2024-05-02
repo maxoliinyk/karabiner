@@ -255,10 +255,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://last.fm"
+                    "shell_command": "open https://www.last.fm/user/ooomaxx"
                   }
                 ],
-                "description": "Open https://last.fm",
+                "description": "Open https://www.last.fm/user/ooomaxx",
                 "type": "basic",
                 "from": {
                   "key_code": "l",
@@ -615,6 +615,30 @@
                 "type": "basic",
                 "from": {
                   "key_code": "b",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Slack.app'"
+                  }
+                ],
+                "description": "Open -a 'Slack.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "l",
                   "modifiers": {
                     "optional": [
                       "any"
