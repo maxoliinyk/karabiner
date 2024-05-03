@@ -67,6 +67,8 @@ const rules: KarabinerRules[] = [
       p: app("Music"),
       // b = "oBsidian"
       b: app("Obsidian"),
+      // w = "Watch"
+      w: app("Stremio"),
     },
 
     // w = "Window" via rectangle.app
@@ -238,6 +240,7 @@ const rules: KarabinerRules[] = [
       d: open("raycast://extensions/aelew/cobalt/index"),
       b: open("raycast://extensions/jomifepe/bitwarden/search"),
       t: open("raycast://extensions/gebeto/translate/quick-translate"),
+      m: open("raycast://extensions/raycast/system/toggle-system-appearance"),
     },
   }),
 ];
