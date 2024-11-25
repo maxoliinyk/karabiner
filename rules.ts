@@ -220,10 +220,14 @@ const rules: KarabinerRules[] = [
     // c = sCreenshot 😭
     c: {
       o: open("raycast://extensions/Aayush9029/cleanshotx/capture-text"),
-      h: open(
+      // Icons
+      i: open(
         "raycast://extensions/Aayush9029/cleanshotx/toggle-desktop-icons"
       ),
-      r: open("raycast://extensions/Aayush9029/cleanshotx/open-history"),
+      // History
+      h: open("raycast://extensions/Aayush9029/cleanshotx/open-history"),
+      // Record
+      r: open("raycast://extensions/Aayush9029/cleanshotx/record-screen"),
       s: open("raycast://extensions/Aayush9029/cleanshotx/scrolling-capture"),
     },
 
