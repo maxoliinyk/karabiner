@@ -716,6 +716,22 @@
                                 },
                                 "to": [{ "shell_command": "open raycast://extensions/yakitrak/do-not-disturb/toggle" }],
                                 "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_s",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open raycast://extensions/loris/safari/copy-to-clipboard",
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "shell_command": "open raycast://extensions/loris/safari/copy-to-clipboard" }],
+                                "type": "basic"
                             }
                         ]
                     },

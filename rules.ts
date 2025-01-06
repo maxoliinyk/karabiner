@@ -141,6 +141,9 @@ const rules: KarabinerRules[] = [
       },
       // "D"o not disturb toggle
       d: open(`raycast://extensions/yakitrak/do-not-disturb/toggle`),
+
+      // Copy Safari linl
+      c: open(`raycast://extensions/loris/safari/copy-to-clipboard`),
     },
 
     // c = sCreenshot 😭
